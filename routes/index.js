@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 var moment = require('moment');
-//var connection = require('../psqlConnection');
+var connection = require('../psqlConnection');
 
 /* GET home page. */
 /* GET home page. */
