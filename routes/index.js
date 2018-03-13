@@ -6,7 +6,7 @@ var connection = require('../psqlConnection');
 /* GET home page. */
 /* GET home page. */
 router.get('/', function(req, res, next) {
-    res.render('index', { title: 'BCtuner Development Environment 1.0' });
+    res.render('index', { title: 'BCtuner Development Environment 1.1' });
 });
 
 router.post('/', function(req, res, next) {
